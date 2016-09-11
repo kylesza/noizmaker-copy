@@ -1,0 +1,42 @@
+{
+	"ImportPath": "github.com/nickcharles/noizmaker",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.10.0-36-g08a8a7c",
+			"Rev": "08a8a7c27e3d058a8989316a850daad1c10bf4ab"
+		},
+		{
+			"ImportPath": "github.com/bwmarrin/discordgo",
+			"Comment": "v0.13.0",
+			"Rev": "11fa9dc906c531a85cd969b7b6b77c2f452a61b3"
+		},
+		{
+			"ImportPath": "github.com/dustin/go-humanize",
+			"Rev": "2fcb5204cdc65b4bec9fd0a87606bb0d0e3c54e8"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.0.0-20-ga69d25b",
+			"Rev": "a69d25be2fe2923a97c2af6849b2f52426f68fc0"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/nacl/secretbox",
+			"Rev": "b3cc7317554b3e708b116d997899e612bab100d6"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/poly1305",
+			"Rev": "b3cc7317554b3e708b116d997899e612bab100d6"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/salsa20/salsa",
+			"Rev": "b3cc7317554b3e708b116d997899e612bab100d6"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "30de6d19a3bd89a5f38ae4028e23aaa5582648af"
+		}
+	]
+}
