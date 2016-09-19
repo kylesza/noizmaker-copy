@@ -200,45 +200,129 @@ var POKE *SoundCollection = &SoundCollection{
 	},
 }
 
-var NZ *SoundCollection = &SoundCollection{
-	Prefix: "nz",
+var DUKE *SoundCollection = &SoundCollection{
+	Prefix: "duke",
 	Commands: []string{
-		"!nz",
+		"!duke",
+	},
+	Sounds: []*Sound{
+		createSound("blowit", 50, 250),
+		createSound("crap", 50, 250),
+		createSound("party", 50, 250),
+	},
+}
+
+var TE *SoundCollection = &SoundCollection{
+	Prefix: "te",
+	Commands: []string{
+		"!te",
+	},
+	Sounds: []*Sound{
+		createSound("celery", 50, 250),
+		createSound("foryourhealth", 50, 250),
+		createSound("tayne", 50, 250),
+	},
+}
+
+var TV *SoundCollection = &SoundCollection{
+	Prefix: "tv",
+	Commands: []string{
+		"!tv",
+	},
+	Sounds: []*Sound{
+		createSound("blackpeople", 50, 250),
+		createSound("dinkleberg", 50, 250),
+		createSound("gotcha", 50, 250),
+		createSound("haha", 50, 250),
+		createSound("hiv", 50, 250),
+		createSound("miz", 50, 250),
+		createSound("nohitter", 50, 250),
+		createSound("rickjames", 50, 250),
+		createSound("seymour", 50, 250),
+	},
+}
+
+var UT *SoundCollection = &SoundCollection{
+	Prefix: "ut",
+	Commands: []string{
+		"!ut",
+	},
+	Sounds: []*Sound{
+		createSound("defeat", 50, 250),
+		createSound("holyshit", 50, 250),
+		createSound("mkill", 50, 250),
+		createSound("mkill2", 50, 250),
+	},
+}
+
+var LC *SoundCollection = &SoundCollection{
+	Prefix: "lc",
+	Commands: []string{
+		"!lc",
 	},
 	Sounds: []*Sound{
 		createSound("bite", 50, 250),
 		createSound("deepdish", 50, 250),
+		createSound("pizzatime", 50, 250),
+		},
+}
+
+var BB *SoundCollection = &SoundCollection{
+	Prefix: "bb",
+	Commands: []string{
+		"!billburr",
+	},
+	Sounds: []*Sound{
+		createSound("jesus", 50, 250),
+		createSound("ladies", 50, 250),
+	},
+}
+
+var SANDLER *SoundCollection = &SoundCollection{
+	Prefix: "sandler",
+	Commands: []string{
+		"!sandler",
+	},
+	Sounds: []*Sound{
+		createSound("ace", 50, 250),
+		createSound("hips", 50, 250),
+		createSound("pos", 50, 250),
+		createSound("price", 50, 250),
 		createSound("shit", 50, 250),
-		createSound("nohitter", 50, 250),
+	},
+}
+
+var TAPS *SoundCollection = &SoundCollection{
+	Prefix: "taps",
+	Commands: []string{
+		"!taps",
+	},
+	Sounds: []*Sound{
+		createSound("1", 50, 250),
+		createSound("2", 50, 250),
+		createSound("3", 50, 250),
+	},
+}
+
+var NZ *SoundCollection = &SoundCollection{
+	Prefix: "nz",
+	Commands: []string{
+		"!nz",
+		"!movies",
+	},
+	Sounds: []*Sound{
+		createSound("bite", 50, 250),
+		createSound("deepdish", 50, 250),
 		createSound("miz", 50, 250),
 		createSound("omg", 50, 250),
-		createSound("ace", 50, 250),
-		createSound("pizzatime", 50, 250),
-		createSound("pos", 50, 250),
 		createSound("quack", 50, 250),
 		createSound("bendover", 50, 250),
-		createSound("ladies", 50, 250),
-		createSound("blowit", 50, 250),
-		createSound("celery", 50, 250),
-		createSound("crap", 50, 250),
-		createSound("gotcha", 50, 250),
-		createSound("haha", 50, 250),
-		createSound("price", 50, 250),
-		createSound("holycow", 50, 250),
-		createSound("holyshit", 50, 250),
-		createSound("holyshit2", 50, 250),
-		createSound("defeat", 50, 250),
 		createSound("2old", 50, 250),
-		createSound("likethewind", 50, 250),
 		createSound("milf", 50, 250),
 		createSound("mondays", 50, 250),
-		createSound("mkill", 50, 250),
-		createSound("mkill2", 50, 250),
 		createSound("hug", 50, 250),
 		createSound("oface", 50, 250),
 		createSound("oface2", 50, 250),
-		createSound("party", 50, 250),
-		createSound("tayne", 50, 250),
 		createSound("trouble", 50, 250),
 		createSound("hoagie", 50, 250),
 		createSound("hello", 50, 250),
