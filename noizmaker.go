@@ -221,6 +221,20 @@ var TE *SoundCollection = &SoundCollection{
 		createSound("celery", 50, 250),
 		createSound("foryourhealth", 50, 250),
 		createSound("tayne", 50, 250),
+		createSound("digitize", 50, 250),
+		createSound("pizzafreak", 50, 250),
+		createSound("grape", 50, 250),
+		createSound("greasy", 50, 250),
+		createSound("idk", 50, 250),
+		createSound("irish", 50, 250),
+		createSound("dpants", 50, 250),
+		createSound("no", 50, 250),
+		createSound("nuts", 50, 250),
+		createSound("creamy", 50, 250),
+		createSound("punk", 50, 250),
+		createSound("sliz", 50, 250),
+		createSound("totinos", 50, 250),
+		createSound("woo", 50, 250),
 	},
 }
 
@@ -239,6 +253,7 @@ var TV *SoundCollection = &SoundCollection{
 		createSound("nohitter", 50, 250),
 		createSound("rickjames", 50, 250),
 		createSound("seymour", 50, 250),
+		createSound("questlove", 50, 250),
 	},
 }
 
@@ -274,7 +289,42 @@ var BB *SoundCollection = &SoundCollection{
 	},
 	Sounds: []*Sound{
 		createSound("jesus", 50, 250),
+		createSound("jesus2", 50, 250),
+		createSound("jesus3", 50, 250),
+		createSound("jesus4", 50, 250),
+		createSound("jesus5", 50, 250),
 		createSound("ladies", 50, 250),
+	},
+}
+
+var CHAD *SoundCollection = &SoundCollection{
+	Prefix: "chad",
+	Commands: []string{
+		"!chad",
+	},
+	Sounds: []*Sound{
+		createSound("ballin", 50, 250),
+		createSound("bitches", 50, 250),
+		createSound("bullshit", 50, 250),
+		createSound("wipe", 50, 250),
+		createSound("dildo", 50, 250),
+		createSound("girls", 50, 250),
+		createSound("ps3", 50, 250),
+		createSound("slick", 50, 250),
+		createSound("zelda", 50, 250),
+	},
+}
+
+var BUBRUB *SoundCollection = &SoundCollection{
+	Prefix: "bubrub",
+	Commands: []string{
+		"!bubrub",
+	},
+	Sounds: []*Sound{
+		createSound("alarm", 50, 250),
+		createSound("whistle", 50, 250),
+		createSound("woot", 50, 250),
+		createSound("wootwoot", 50, 250),
 	},
 }
 
@@ -326,6 +376,10 @@ var NZ *SoundCollection = &SoundCollection{
 		createSound("trouble", 50, 250),
 		createSound("hoagie", 50, 250),
 		createSound("hello", 50, 250),
+		createSound("augh", 50, 250),
+		createSound("plays", 50, 250),
+		createSound("pucker", 50, 250),
+		createSound("stfu", 50, 250),
 	},
 }
 
