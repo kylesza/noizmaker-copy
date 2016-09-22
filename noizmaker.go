@@ -394,6 +394,16 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	WOW,
 	POKE,
 	NZ,
+	TE,
+	TV,
+	BUBRUB,
+	BB,
+	TAPS,
+	SANDLER,
+	CHAD,
+	LC,
+	UT,
+	DUKE,
 }
 
 // Create a Sound struct
