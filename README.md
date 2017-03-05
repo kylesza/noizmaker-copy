@@ -25,8 +25,10 @@ At the end of this you'll have a bot account sitting in your channel, but it won
 ###Running A Bot Locally
 First step is to set up a deve environment the way Go likes it. For now, I'm leaving it up to you to figure that out. Next, you'll want to pull down this repo. Best way to do that is to do:
 
-`go get github.com/nickcharles/noizmaker`
-`go install github.com/nickcharles/noizmaker`
+```
+go get github.com/nickcharles/noizmaker
+go install github.com/nickcharles/noizmaker
+```
 
 This will place a `noizmaker` executable in your `$GOPATH/bin` directory. You are now capable of running the bot on your local machine! The command requires two arguments: the bot username and the bot token. These can be found in the bot user section of your app's administration page. Given those, here is what the command should look like:
 
