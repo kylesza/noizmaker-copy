@@ -16,7 +16,7 @@ The first thing to do is register an application with Discord. To do that, head 
 
 Next is allowing the thing to join your channel and giving it the correct permissions. The easiest way to do this is to go to a URL that you can build given the app's client ID and the permission's code that we need. The URL takes the following form:
 
-`https://discordapp.com/oauth2/authorize?client_id=<client_id>&scope=bot&permissions=<permission_code>'
+`https://discordapp.com/oauth2/authorize?client_id=<client_id>&scope=bot&permissions=<permission_code>`
 
 You want to take the client ID of your app, which you can find on your app's administration page that you were just on, and the following permission code `3148800` and use them to replace `<client_id>` and `<permission_code>` in that URL. Visit that page with your browser and it will take you to a page that will allow you invite the bot to whatever servers you have permissions in, and it also indicates that you are giving the bot a few permissions. Accept all of them and invite it to whatever server you want it to play in.
 
